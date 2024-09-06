@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sdf234"
+  description: |
+    I am an experimental Component.
+    Let me show you around.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  tags:
+  - expo
+  labels:
+    exo.io/post: manually
+  links:
+  - url: https://admin.example-org.com
+    title: ex link
+    icon: dashboard
+    type: admin-dashboard
+spec:
+  type: service
+  owner: user:lir2002
+  lifecycle: experimental
+  system: public-websites
